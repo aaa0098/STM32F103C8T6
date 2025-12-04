@@ -1,17 +1,45 @@
-# 仿真输出、缓存、临时文件
-*.log
+########################
+# OrCAD Capture / PSpice
+########################
+
+# 仿真生成的工程目录
+circuit simulation-PSpiceFiles/
+**/PSpiceFiles/
+
+# 打开工程时生成的锁文件
+*.DSNlk
+*.DSNlck
+
+# 备份文件（你目录里的 *_0.DBK、*_0.OBK 等）
+*.DBK
+*.OBK
+
+# PSpice 索引等可重新生成文件
+*.ind
+
+# 一般仿真输出
 *.out
+*.log
 *.dat
-*.tmp
-*.bak
-*.drc
-*.lst
+*.st0
+*.st1
+*.st2
+*.ac0
+*.tr0
+
+########################
+# 通用临时文件
+########################
 
 # Windows 垃圾文件
 Thumbs.db
 Desktop.ini
-*.tmp
 
-# 个人设置类
-*.ini
-*.cfg
+# 临时/备份
+*.tmp
+*.bak
+*~
+~$*
+
+# VS Code 等编辑器配置（如果你不想同步）
+.vscode/
