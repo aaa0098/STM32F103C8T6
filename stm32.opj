@@ -1,0 +1,103 @@
+(ExpressProject "stm32"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\stm32.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\stm32.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (Board_sim_option "VHDL_flow"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (MPSSessionName "Encosmart")
+  (PartMRUSelector
+    (TPS54202
+      (FullPartName "TPS54202.Normal")
+      (LibraryName "D:\LH\DSN\STM32\STM32.OLB")
+      (DeviceIndex "0"))
+    (VCC
+      (LibraryName
+         "D:\CADENCE16.6\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (SENS59025-SPST
+      (FullPartName "SENS59025-SPST.Normal")
+      (LibraryName
+         "D:\CADENCE16.6\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (TYPE-C-2P
+      (FullPartName "TYPE-C-2P.Normal")
+      (LibraryName "D:\LH\DSN\STM32\STM32.OLB")
+      (DeviceIndex "0"))
+    ("CAP POL"
+      (FullPartName "CAP POL.Normal")
+      (LibraryName
+         "D:\CADENCE16.6\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (LED
+      (FullPartName "LED.Normal")
+      (LibraryName
+         "D:\CADENCE16.6\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "D:\CADENCE16.6\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("CAP NP"
+      (FullPartName "CAP NP.Normal")
+      (LibraryName
+         "D:\CADENCE16.6\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName
+         "D:\CADENCE16.6\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (USB_mrico
+      (FullPartName "USB_mrico.Normal")
+      (LibraryName "D:\LH\DSN\STM32\STM32.OLB")
+      (DeviceIndex "0"))
+    (STM32F103C8T6
+      (FullPartName "STM32F103C8T6.Normal")
+      (LibraryName "D:\LH\DSN\STM32\STM32.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory
+     "D:\Cadence16.6\Cadence\SPB_16.6\tools\capture\library")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\stm32.dsn")
+      (Path "Design Resources" ".\stm32.dsn" "SCHEMATIC1")
+      (Path "Design Resources" ".\stm32.dsn" "Design Cache")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library" ".\stm32.olb"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 513"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 130 2284 130 686")
+        (Scroll "66 273")
+        (Zoom "132")
+        (Occurrence "/"))
+      (Path "D:\LH\DSN\STM32\STM32.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "STM32F103C8T6"))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 104 1966 104 660")
+        (PackageScroll "0 0")
+        (PackageZoom "1")
+        (PartPackage "Part")
+        (Scroll "4547 1110")
+        (Zoom "603"))
+      (Path "D:\LH\DSN\STM32\STM32.OLB")
+      (Package "TPS54202"))))

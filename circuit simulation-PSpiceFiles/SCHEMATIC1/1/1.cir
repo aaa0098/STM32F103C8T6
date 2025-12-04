@@ -1,0 +1,21 @@
+** Profile: "SCHEMATIC1-1"  [ d:\lh\dsn\stm32\circuit simulation-pspicefiles\schematic1\1.sim ] 
+
+** Creating circuit file "1.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../tps54202_trans.lib" 
+* From [PSPICE NETLIST] section of D:\Cadence16.6\Cadence\SPB_Data\cdssetup\OrCAD_PSpice/16.6.0/PSpice.ini file:
+.lib "D:\lh\slvm811a\TPS54560_PSPICE_TRANS\TPS54560_TRANS.LIB" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 50ms 0 10us 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+.END

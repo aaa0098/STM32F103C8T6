@@ -1,0 +1,17 @@
+# 仿真输出、缓存、临时文件
+*.log
+*.out
+*.dat
+*.tmp
+*.bak
+*.drc
+*.lst
+
+# Windows 垃圾文件
+Thumbs.db
+Desktop.ini
+*.tmp
+
+# 个人设置类
+*.ini
+*.cfg

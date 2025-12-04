@@ -1,0 +1,132 @@
+(ExpressProject "circuit simulation"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File
+         "D:\Cadence16.6\Cadence\SPB_16.6\tools\capture\library\pspice\analog.olb"
+        (DisplayName
+           "D:\Cadence16.6\Cadence\SPB_16.6\tools\capture\library\pspice\analog.olb")
+        (Type "Schematic Library"))
+      (File
+         "D:\Cadence16.6\Cadence\SPB_16.6\tools\capture\library\pspice\breakout.olb"
+        (DisplayName
+           "D:\Cadence16.6\Cadence\SPB_16.6\tools\capture\library\pspice\breakout.olb")
+        (Type "Schematic Library"))
+      (File
+         "D:\Cadence16.6\Cadence\SPB_16.6\tools\capture\library\pspice\source.olb"
+        (DisplayName
+           "D:\Cadence16.6\Cadence\SPB_16.6\tools\capture\library\pspice\source.olb")
+        (Type "Schematic Library"))
+      (File
+         "D:\Cadence16.6\Cadence\SPB_16.6\tools\capture\library\pspice\sourcstm.olb"
+        (DisplayName
+           "D:\Cadence16.6\Cadence\SPB_16.6\tools\capture\library\pspice\sourcstm.olb")
+        (Type "Schematic Library"))
+      (File
+         "D:\Cadence16.6\Cadence\SPB_16.6\tools\capture\library\pspice\special.olb"
+        (DisplayName
+           "D:\Cadence16.6\Cadence\SPB_16.6\tools\capture\library\pspice\special.olb")
+        (Type "Schematic Library")))
+    (NoModify)
+    (File "circuit simulation.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "1")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "TRUE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Outputs"
+    (File ".\circuit simulation-pspicefiles\schematic1\schematic1.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Model Libraries"
+      (Sort User)
+      (File ".\tps54202_trans.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName ".\tps54202_trans.lib")))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User))
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\circuit simulation-pspicefiles\schematic1\bias.sim"
+        (DisplayName "SCHEMATIC1-bias")
+        (Type "PSpice Profile"))
+      (ActiveProfile ".\circuit simulation-pspicefiles\schematic1\1.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\circuit simulation-pspicefiles\schematic1\1.sim"
+        (DisplayName "SCHEMATIC1-1")
+        (Type "PSpice Profile"))))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (0
+      (LibraryName
+         "D:\CADENCE16.6\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (L
+      (FullPartName "L.Normal")
+      (LibraryName
+         "D:\CADENCE16.6\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName
+         "D:\CADENCE16.6\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "D:\CADENCE16.6\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName
+         "D:\CADENCE16.6\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    ("CAP NP"
+      (FullPartName "CAP NP.Normal")
+      (LibraryName
+         "D:\CADENCE16.6\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("CAP POL"
+      (FullPartName "CAP POL.Normal")
+      (LibraryName
+         "D:\CADENCE16.6\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (TPS54202DDC_TRANS
+      (FullPartName "TPS54202DDC_TRANS.Normal")
+      (LibraryName "D:\LH\DSN\STM32\TPS54202DDC_TRANS.OLB")
+      (DeviceIndex "0"))
+    (VSTIM
+      (FullPartName "VSTIM.Normal")
+      (LibraryName "..\..\LIBRARY\PSPICE\SOURCSTM.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory "D:\lh\dsn\STM32")
+  (MPSSessionName "Encosmart")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Outputs")
+      (Select "Design Resources"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 517"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 156 2018 156 712")
+        (Scroll "-100 0")
+        (Zoom "132")
+        (Occurrence "/"))
+      (Path "D:\LH\DSN\STM32\CIRCUIT SIMULATION.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))))
