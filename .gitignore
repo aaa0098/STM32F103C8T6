@@ -15,6 +15,7 @@ circuit simulation-PSpiceFiles/
 *.OBK
 *.png
 *.did
+*.db
 
 # PSpice 索引等可重新生成文件
 *.ind
