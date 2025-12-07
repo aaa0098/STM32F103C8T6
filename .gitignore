@@ -13,6 +13,8 @@ circuit simulation-PSpiceFiles/
 # 备份文件（你目录里的 *_0.DBK、*_0.OBK 等）
 *.DBK
 *.OBK
+*.png
+*.did
 
 # PSpice 索引等可重新生成文件
 *.ind

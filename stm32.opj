@@ -1,5 +1,6 @@
 (ExpressProject "stm32"
   (ProjectVersion "19981106")
+  (SoftwareVersion "17.4-2019 S039 (4153571)  [11/4/2023]-[12/07/25]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -10,94 +11,164 @@
       (Type "Schematic Design"))
     (BuildFileAddedOrDeleted "x")
     (CompileFileAddedOrDeleted "x")
-    (Board_sim_option "VHDL_flow"))
+    (Board_sim_option "VHDL_flow")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420"))
+  (Folder "Layout")
   (Folder "Outputs")
   (Folder "Referenced Projects")
-  (MPSSessionName "Encosmart")
+  (MPSSessionName "lh2023030272")
   (PartMRUSelector
-    (TPS54202
-      (FullPartName "TPS54202.Normal")
-      (LibraryName "D:\LH\DSN\STM32\STM32.OLB")
+    (OFFPAGELEFT-L
+      (LibraryName "F:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
-    (VCC
-      (LibraryName
-         "D:\CADENCE16.6\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+    (纽扣电池座(CR2032)
+      (FullPartName "纽扣电池座(CR2032).Normal")
+      (LibraryName "F:\CADENCE_SCH\STM32\STM32F103C8T6\STM32.OLB")
       (DeviceIndex "0"))
-    (SENS59025-SPST
-      (FullPartName "SENS59025-SPST.Normal")
-      (LibraryName
-         "D:\CADENCE16.6\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (TYPE-C-2P
-      (FullPartName "TYPE-C-2P.Normal")
-      (LibraryName "D:\LH\DSN\STM32\STM32.OLB")
-      (DeviceIndex "0"))
-    ("CAP POL"
-      (FullPartName "CAP POL.Normal")
-      (LibraryName
-         "D:\CADENCE16.6\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+    ("CONN PLUG 3x2"
+      (FullPartName "CONN PLUG 3x2.Normal")
+      (LibraryName "F:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
       (DeviceIndex "0"))
     (LED
       (FullPartName "LED.Normal")
-      (LibraryName
-         "D:\CADENCE16.6\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (LibraryName "F:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
       (DeviceIndex "0"))
-    (R
-      (FullPartName "R.Normal")
-      (LibraryName
-         "D:\CADENCE16.6\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+    (OFFPAGELEFT-R
+      (LibraryName "F:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
-    ("CAP NP"
-      (FullPartName "CAP NP.Normal")
-      (LibraryName
-         "D:\CADENCE16.6\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+    ("4 HEADER"
+      (FullPartName "4 HEADER.Normal")
+      (LibraryName "F:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
       (DeviceIndex "0"))
-    (GND
-      (LibraryName
-         "D:\CADENCE16.6\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+    ("SW PUSHBUTTON-SPST"
+      (FullPartName "SW PUSHBUTTON-SPST.Normal")
+      (LibraryName "F:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
       (DeviceIndex "0"))
-    (USB_mrico
-      (FullPartName "USB_mrico.Normal")
-      (LibraryName "D:\LH\DSN\STM32\STM32.OLB")
+    (ZTA
+      (FullPartName "ZTA.Normal")
+      (LibraryName "F:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
       (DeviceIndex "0"))
-    (STM32F103C8T6
-      (FullPartName "STM32F103C8T6.Normal")
-      (LibraryName "D:\LH\DSN\STM32\STM32.OLB")
-      (DeviceIndex "0")))
-  (LastUsedLibraryBrowseDirectory
-     "D:\Cadence16.6\Cadence\SPB_16.6\tools\capture\library")
+    (ZHCS1000/SOT
+      (FullPartName "ZHCS1000/SOT.Normal")
+      (LibraryName "F:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (SMBJ33A( 单向TVS管)
+    (FullPartName "SMBJ33A(单向TVS管).Normal")
+    (LibraryName "F:\CADENCE_SCH\STM32\STM32F103C8T6\STM32.OLB")
+    (DeviceIndex "0"))
+  ("CAPACITOR POL"
+    (FullPartName "CAPACITOR POL.Normal")
+    (LibraryName "F:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+    (DeviceIndex "0"))
+  (1N5473A
+    (FullPartName "1N5473A.Normal")
+    (LibraryName "F:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+    (DeviceIndex "0"))
+  (STM32F103C8T6
+    (FullPartName "STM32F103C8T6.Normal")
+    (LibraryName "F:\CADENCE_SCH\STM32\STM32F103C8T6\STM32.OLB")
+    (DeviceIndex "0"))
+  (自恢复保险丝
+    (FullPartName "自恢复保险丝.Normal")
+    (LibraryName "F:\CADENCE_SCH\STM32\STM32F103C8T6\STM32.OLB")
+    (DeviceIndex "0"))
+  (AMS1117_3.3V
+    (FullPartName "AMS1117_3.3V.Normal")
+    (LibraryName "F:\CADENCE_SCH\STM32\STM32F103C8T6\STM32.OLB")
+    (DeviceIndex "0"))
+  (VCC
+    (LibraryName "F:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+    (DeviceIndex "0"))
+  (INDUCTOR
+    (FullPartName "INDUCTOR.Normal")
+    (LibraryName "F:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+    (DeviceIndex "0"))
+  (TPS54202
+    (FullPartName "TPS54202.Normal")
+    (LibraryName "F:\CADENCE_SCH\STM32\STM32F103C8T6\STM32.OLB")
+    (DeviceIndex "0"))
+  (R
+    (FullPartName "R.Normal")
+    (LibraryName
+       "D:\CADENCE16.6\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+    (DeviceIndex "0"))
+  ("CAP POL"
+    (FullPartName "CAP POL.Normal")
+    (LibraryName
+       "D:\CADENCE16.6\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+    (DeviceIndex "0"))
+  ("CAP NP"
+    (FullPartName "CAP NP.Normal")
+    (LibraryName
+       "D:\CADENCE16.6\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+    (DeviceIndex "0"))
+  (XT-60
+    (FullPartName "XT-60.Normal")
+    (LibraryName "F:\CADENCE_SCH\STM32\STM32F103C8T6\STM32.OLB")
+    (DeviceIndex "0"))
+  (SENS59025-SPST
+    (FullPartName "SENS59025-SPST.Normal")
+    (LibraryName
+       "D:\CADENCE16.6\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+    (DeviceIndex "0"))
+  (TYPE-C-2P
+    (FullPartName "TYPE-C-2P.Normal")
+    (LibraryName "D:\LH\DSN\STM32\STM32.OLB")
+    (DeviceIndex "0"))
+  (LED
+    (FullPartName "LED.Normal")
+    (LibraryName
+       "D:\CADENCE16.6\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+    (DeviceIndex "0"))
+  (GND
+    (LibraryName
+       "D:\CADENCE16.6\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+    (DeviceIndex "0"))
+  (USB_mrico
+    (FullPartName "USB_mrico.Normal")
+    (LibraryName "D:\LH\DSN\STM32\STM32.OLB")
+    (DeviceIndex "0"))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (Folder "Logs")
   (GlobalState
     (FileView
       (Path "Design Resources")
       (Path "Design Resources" ".\stm32.dsn")
       (Path "Design Resources" ".\stm32.dsn" "SCHEMATIC1")
-      (Path "Design Resources" ".\stm32.dsn" "Design Cache")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library" ".\stm32.olb"))
+      (Select "Design Resources" ".\stm32.dsn" "SCHEMATIC1" "POWER"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 513"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 233 0 717"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 130 2284 130 686")
-        (Scroll "66 273")
-        (Zoom "132")
+        (Placement "44 0 1 -1 -1 5 28 5 1385 28 739")
+        (Scroll "-203 -6")
+        (Zoom "57")
         (Occurrence "/"))
-      (Path "D:\LH\DSN\STM32\STM32.DSN")
+      (Path "F:\CADENCE_SCH\STM32\STM32F103C8T6\STM32.DSN")
       (Schematic "SCHEMATIC1")
       (Page "STM32F103C8T6"))
     (Doc
-      (Type "COrPartDoc")
+      (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 104 1966 104 660")
-        (PackageScroll "0 0")
-        (PackageZoom "1")
-        (PartPackage "Part")
-        (Scroll "4547 1110")
-        (Zoom "603"))
-      (Path "D:\LH\DSN\STM32\STM32.OLB")
-      (Package "TPS54202"))))
+        (Placement "44 0 1 -1 -1 5 28 5 1385 28 739")
+        (Scroll "-178 0")
+        (Zoom "60")
+        (Occurrence "/"))
+      (Path "F:\CADENCE_SCH\STM32\STM32F103C8T6\STM32.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "POWER")))
+  (LastUsedLibraryBrowseDirectory "F:\Cadence\SPB_17.4\tools\capture\library"))
