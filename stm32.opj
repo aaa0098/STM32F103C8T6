@@ -17,10 +17,50 @@
   (Folder "Layout")
   (Folder "Outputs")
   (Folder "Referenced Projects")
-  (MPSSessionName "lh2023030272")
+  (MPSSessionName "LH745211")
   (PartMRUSelector
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "D:\CADENCE16.6\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("CONN PCB 3"
+      (FullPartName "CONN PCB 3.Normal")
+      (LibraryName
+         "D:\CADENCE16.6\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("CAP NP"
+      (FullPartName "CAP NP.Normal")
+      (LibraryName
+         "D:\CADENCE16.6\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName
+         "D:\CADENCE16.6\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
     (OFFPAGELEFT-L
-      (LibraryName "F:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (LibraryName
+         "D:\CADENCE16.6\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (SN65HVD230DR(CAN收发器)
+      (FullPartName "SN65HVD230DR(CAN收发器).Normal")
+      (LibraryName "D:\CADENCE_SCH\STM32F103C8T6\STM32.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-R
+      (LibraryName
+         "D:\CADENCE16.6\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (USBLC6-2P6(单项ESD)
+      (FullPartName "USBLC6-2P6(单项ESD).Normal")
+      (LibraryName "D:\CADENCE_SCH\STM32F103C8T6\STM32.OLB")
+      (DeviceIndex "0"))
+    (VCC
+      (LibraryName
+         "D:\CADENCE16.6\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (TYPE_C_16P
+      (FullPartName "TYPE_C_16P.Normal")
+      (LibraryName "D:\CADENCE_SCH\STM32F103C8T6\STM32.OLB")
       (DeviceIndex "0"))
     (纽扣电池座( CR2032)
     (FullPartName "纽扣电池座(CR2032).Normal")
@@ -68,10 +108,81 @@
   (Folder "Logs")
   (GlobalState
     (FileView
-      (Path "Design Resources"))
+      (Path "Design Resources")
+      (Path "Design Resources" ".\stm32.dsn")
+      (Path "Design Resources" ".\stm32.dsn" "SCHEMATIC1")
+      (Path "Design Resources" ".\stm32.dsn" "Design Cache")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library" ".\stm32.olb")
+      (Select "Design Resources" ".\stm32.dsn" "Design Cache" "CAP NP"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 717"))
-      (Tab 0))))
+        (Placement "44 0 1 -1 -1 -1 -1 0 329 0 642"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 52 1122 52 362")
+        (Scroll "559 218")
+        (Zoom "140")
+        (Occurrence "/"))
+      (Path "D:\CADENCE_SCH\STM32F103C8T6\STM32.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "STM32F103C8T6"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 78 1152 78 392")
+        (Scroll "32 71")
+        (Zoom "70")
+        (Occurrence "/"))
+      (Path "D:\CADENCE_SCH\STM32F103C8T6\STM32.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "POWER"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 78 1073 78 392")
+        (Scroll "98 0")
+        (Zoom "140")
+        (Occurrence "/"))
+      (Path "D:\CADENCE_SCH\STM32F103C8T6\STM32.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "CAN&RS485"))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 26 1086 26 340")
+        (PackageScroll "0 0")
+        (PackageZoom "1")
+        (PartPackage "Part")
+        (Scroll "1044 197")
+        (Zoom "308"))
+      (Path "D:\CADENCE_SCH\STM32F103C8T6\STM32.OLB")
+      (Package "USBLC6-2P6(单项ESD)"))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 52 819 52 366")
+        (PackageScroll "0 0")
+        (PackageZoom "1")
+        (PartPackage "Part")
+        (Scroll "118 67")
+        (Zoom "134"))
+      (Path "D:\CADENCE_SCH\STM32F103C8T6\STM32.OLB")
+      (Package "TYPE_C_16P"))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 104 1099 104 418")
+        (PackageScroll "0 0")
+        (PackageZoom "1")
+        (PartPackage "Part")
+        (Scroll "986 166")
+        (Zoom "308"))
+      (Path "D:\CADENCE_SCH\STM32F103C8T6\STM32.OLB")
+      (Package "SN65HVD230DR(CAN收发器)")))
+  (LastUsedLibraryBrowseDirectory
+     "D:\Cadence16.6\Cadence\SPB_16.6\tools\capture\library"))
