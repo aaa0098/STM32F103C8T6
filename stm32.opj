@@ -17,95 +17,69 @@
   (Folder "Layout")
   (Folder "Outputs")
   (Folder "Referenced Projects")
-  (MPSSessionName "LH745211")
+  (MPSSessionName "Encosmart")
   (PartMRUSelector
-    (R
-      (FullPartName "R.Normal")
-      (LibraryName
-         "D:\CADENCE16.6\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+    (SP3485EN-L/TR
+      (FullPartName "SP3485EN-L/TR.Normal")
+      (LibraryName "E:\LH\STM32\STM32.OLB")
       (DeviceIndex "0"))
-    ("CONN PCB 3"
-      (FullPartName "CONN PCB 3.Normal")
-      (LibraryName
-         "D:\CADENCE16.6\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+    (ACT45B-510-2P-TL003
+      (FullPartName "ACT45B-510-2P-TL003.Normal")
+      (LibraryName "E:\LH\STM32\STM32.OLB")
       (DeviceIndex "0"))
-    ("CAP NP"
-      (FullPartName "CAP NP.Normal")
-      (LibraryName
-         "D:\CADENCE16.6\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+    (AMS1117_3.3V
+      (FullPartName "AMS1117_3.3V.Normal")
+      (LibraryName "E:\LH\STM32\STM32.OLB")
       (DeviceIndex "0"))
-    (GND
-      (LibraryName
-         "D:\CADENCE16.6\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (OFFPAGELEFT-L
-      (LibraryName
-         "D:\CADENCE16.6\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (SN65HVD230DR(CAN收发器)
-      (FullPartName "SN65HVD230DR(CAN收发器).Normal")
-      (LibraryName "D:\CADENCE_SCH\STM32F103C8T6\STM32.OLB")
-      (DeviceIndex "0"))
-    (OFFPAGELEFT-R
-      (LibraryName
-         "D:\CADENCE16.6\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (USBLC6-2P6(单项ESD)
-      (FullPartName "USBLC6-2P6(单项ESD).Normal")
-      (LibraryName "D:\CADENCE_SCH\STM32F103C8T6\STM32.OLB")
-      (DeviceIndex "0"))
-    (VCC
-      (LibraryName
-         "D:\CADENCE16.6\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+    (XT-60
+      (FullPartName "XT-60.Normal")
+      (LibraryName "E:\LH\STM32\STM32.OLB")
       (DeviceIndex "0"))
     (TYPE_C_16P
       (FullPartName "TYPE_C_16P.Normal")
-      (LibraryName "D:\CADENCE_SCH\STM32F103C8T6\STM32.OLB")
+      (LibraryName "E:\LH\STM32\STM32.OLB")
       (DeviceIndex "0"))
-    (纽扣电池座( CR2032)
-    (FullPartName "纽扣电池座(CR2032).Normal")
-    (LibraryName "F:\CADENCE_SCH\STM32\STM32F103C8T6\STM32.OLB")
+    (ACT45B-510-2P-TL003( 共模滤波器)
+    (FullPartName "ACT45B-510-2P-TL003(共模滤波器).Normal")
+    (LibraryName "E:\LH\STM32\STM32.OLB")
     (DeviceIndex "0"))
-  ("CONN PLUG 3x2"
-    (FullPartName "CONN PLUG 3x2.Normal")
-    (LibraryName "F:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+  (PESD1CAN
+    (FullPartName "PESD1CAN.Normal")
+    (LibraryName "E:\LH\STM32\STM32.OLB")
     (DeviceIndex "0"))
-  (LED
-    (FullPartName "LED.Normal")
-    (LibraryName "F:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+  (CON2
+    (FullPartName "CON2.Normal")
+    (LibraryName
+       "D:\CADENCE16.6\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
     (DeviceIndex "0"))
-  (OFFPAGELEFT-R
-    (LibraryName "F:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+  (R
+    (FullPartName "R.Normal")
+    (LibraryName
+       "D:\CADENCE16.6\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
     (DeviceIndex "0"))
-  ("4 HEADER"
-    (FullPartName "4 HEADER.Normal")
-    (LibraryName "F:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+  ("CONN PCB 3"
+    (FullPartName "CONN PCB 3.Normal")
+    (LibraryName
+       "D:\CADENCE16.6\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
     (DeviceIndex "0"))
-  ("SW PUSHBUTTON-SPST"
-    (FullPartName "SW PUSHBUTTON-SPST.Normal")
-    (LibraryName "F:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+  ("CAP NP"
+    (FullPartName "CAP NP.Normal")
+    (LibraryName
+       "D:\CADENCE16.6\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
     (DeviceIndex "0"))
-  (ZTA
-    (FullPartName "ZTA.Normal")
-    (LibraryName "F:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+  (GND
+    (LibraryName
+       "D:\CADENCE16.6\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
     (DeviceIndex "0"))
-  (ZHCS1000/SOT
-    (FullPartName "ZHCS1000/SOT.Normal")
-    (LibraryName "F:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+  (OFFPAGELEFT-L
+    (LibraryName
+       "D:\CADENCE16.6\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
     (DeviceIndex "0"))
-  (SMBJ33A( 单向TVS管)
-  (FullPartName "SMBJ33A(单向TVS管).Normal")
-  (LibraryName "F:\CADENCE_SCH\STM32\STM32F103C8T6\STM32.OLB")
+  (SN65HVD230DR( CAN收发器)
+  (FullPartName "SN65HVD230DR(CAN收发器).Normal")
+  (LibraryName "D:\CADENCE_SCH\STM32F103C8T6\STM32.OLB")
   (DeviceIndex "0")
-  (Folder "PSpice Resources"
-    (Folder "Simulation Profiles")
-    (Folder "Model Libraries"
-      (Sort User))
-    (Folder "Stimulus Files"
-      (Sort User))
-    (Folder "Include Files"
-      (Sort User)))
-  (Folder "Logs")
+  (LastUsedLibraryBrowseDirectory "E:\lh\STM32")
   (GlobalState
     (FileView
       (Path "Design Resources")
@@ -114,75 +88,41 @@
       (Path "Design Resources" ".\stm32.dsn" "Design Cache")
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library" ".\stm32.olb")
-      (Select "Design Resources" ".\stm32.dsn" "Design Cache" "CAP NP"))
+      (Select "Design Resources" "Library" ".\stm32.olb"
+         "SN65HVD230DR(CAN收发器)"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 329 0 642"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 1183"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 52 1122 52 362")
-        (Scroll "559 218")
-        (Zoom "140")
+        (Placement "44 0 1 -1 -1 -8 -31 78 1972 78 630")
+        (Scroll "-96 0")
+        (Zoom "100")
         (Occurrence "/"))
-      (Path "D:\CADENCE_SCH\STM32F103C8T6\STM32.DSN")
+      (Path "E:\LH\STM32\STM32.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "STM32F103C8T6"))
+      (Page "CAN&RS485"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 78 1152 78 392")
-        (Scroll "32 71")
-        (Zoom "70")
+        (Placement "44 0 1 -1 -1 -8 -31 78 1976 78 634")
+        (Scroll "-98 0")
+        (Zoom "100")
         (Occurrence "/"))
-      (Path "D:\CADENCE_SCH\STM32F103C8T6\STM32.DSN")
+      (Path "E:\LH\STM32\STM32.DSN")
       (Schematic "SCHEMATIC1")
       (Page "POWER"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 78 1073 78 392")
-        (Scroll "98 0")
-        (Zoom "140")
+        (Placement "44 2 3 -1 -1 -8 -31 104 2002 104 660")
+        (Scroll "0 125")
+        (Zoom "132")
         (Occurrence "/"))
-      (Path "D:\CADENCE_SCH\STM32F103C8T6\STM32.DSN")
+      (Path "E:\LH\STM32\STM32.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "CAN&RS485"))
-    (Doc
-      (Type "COrPartDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 26 1086 26 340")
-        (PackageScroll "0 0")
-        (PackageZoom "1")
-        (PartPackage "Part")
-        (Scroll "1044 197")
-        (Zoom "308"))
-      (Path "D:\CADENCE_SCH\STM32F103C8T6\STM32.OLB")
-      (Package "USBLC6-2P6(单项ESD)"))
-    (Doc
-      (Type "COrPartDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 52 819 52 366")
-        (PackageScroll "0 0")
-        (PackageZoom "1")
-        (PartPackage "Part")
-        (Scroll "118 67")
-        (Zoom "134"))
-      (Path "D:\CADENCE_SCH\STM32F103C8T6\STM32.OLB")
-      (Package "TYPE_C_16P"))
-    (Doc
-      (Type "COrPartDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 104 1099 104 418")
-        (PackageScroll "0 0")
-        (PackageZoom "1")
-        (PartPackage "Part")
-        (Scroll "986 166")
-        (Zoom "308"))
-      (Path "D:\CADENCE_SCH\STM32F103C8T6\STM32.OLB")
-      (Package "SN65HVD230DR(CAN收发器)")))
-  (LastUsedLibraryBrowseDirectory
-     "D:\Cadence16.6\Cadence\SPB_16.6\tools\capture\library"))
+      (Page "STM32F103C8T6"))))
