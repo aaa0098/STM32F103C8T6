@@ -1,6 +1,6 @@
 (ExpressProject "stm32"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 S039 (4153571)  [11/4/2023]-[12/07/25]")
+  (SoftwareVersion "17.4-2019 S039 (4153571)  [11/4/2023]-[12/14/25]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -17,7 +17,7 @@
   (Folder "Layout")
   (Folder "Outputs")
   (Folder "Referenced Projects")
-  (MPSSessionName "Encosmart")
+  (MPSSessionName "lh2023030272")
   (PartMRUSelector
     (SP3485EN-L/TR
       (FullPartName "SP3485EN-L/TR.Normal")
@@ -85,44 +85,41 @@
       (Path "Design Resources")
       (Path "Design Resources" ".\stm32.dsn")
       (Path "Design Resources" ".\stm32.dsn" "SCHEMATIC1")
-      (Path "Design Resources" ".\stm32.dsn" "Design Cache")
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library" ".\stm32.olb")
-      (Select "Design Resources" "Library" ".\stm32.olb"
-         "SN65HVD230DR(CANÊÕ·¢Æ÷)"))
+      (Select "Design Resources" ".\stm32.dsn" "SCHEMATIC1" "POWER"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 1183"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 331 0 746"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 78 1972 78 630")
-        (Scroll "-96 0")
-        (Zoom "100")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1543 28 768")
+        (Scroll "174 318")
+        (Zoom "120")
         (Occurrence "/"))
-      (Path "E:\LH\STM32\STM32.DSN")
+      (Path "F:\CADENCE_SCH\STM32\STM32F103C8T6\STM32.DSN")
       (Schematic "SCHEMATIC1")
       (Page "CAN&RS485"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 78 1976 78 634")
-        (Scroll "-98 0")
-        (Zoom "100")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1543 28 768")
+        (Scroll "-257 -3")
+        (Zoom "60")
         (Occurrence "/"))
-      (Path "E:\LH\STM32\STM32.DSN")
+      (Path "F:\CADENCE_SCH\STM32\STM32F103C8T6\STM32.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "POWER"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 104 2002 104 660")
-        (Scroll "0 125")
-        (Zoom "132")
-        (Occurrence "/"))
-      (Path "E:\LH\STM32\STM32.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "STM32F103C8T6"))))
+      (Page "STM32F103C8T6")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (Folder "Logs"))
