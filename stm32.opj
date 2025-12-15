@@ -1,6 +1,6 @@
 (ExpressProject "stm32"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 S039 (4153571)  [11/4/2023]-[12/14/25]")
+  (SoftwareVersion "17.4-2019 S039 (4153571)  [11/4/2023]-[12/15/25]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -19,6 +19,16 @@
   (Folder "Referenced Projects")
   (MPSSessionName "lh2023030272")
   (PartMRUSelector
+    (CON3
+      (FullPartName "CON3.Normal")
+      (LibraryName "F:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-R
+      (LibraryName "F:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-L
+      (LibraryName "F:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
     (SP3485EN-L/TR
       (FullPartName "SP3485EN-L/TR.Normal")
       (LibraryName "E:\LH\STM32\STM32.OLB")
@@ -87,18 +97,18 @@
       (Path "Design Resources" ".\stm32.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library" ".\stm32.olb")
-      (Select "Design Resources" ".\stm32.dsn" "SCHEMATIC1" "POWER"))
+      (Select "Design Resources" ".\stm32.dsn" "SCHEMATIC1" "CAN&RS485"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 331 0 746"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 746"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1543 28 768")
-        (Scroll "174 318")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1674 28 768")
+        (Scroll "337 12")
         (Zoom "120")
         (Occurrence "/"))
       (Path "F:\CADENCE_SCH\STM32\STM32F103C8T6\STM32.DSN")
@@ -107,9 +117,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1543 28 768")
-        (Scroll "-257 -3")
-        (Zoom "60")
+        (Placement "44 0 1 -1 -1 5 28 5 1674 28 768")
+        (Scroll "337 570")
+        (Zoom "120")
         (Occurrence "/"))
       (Path "F:\CADENCE_SCH\STM32\STM32F103C8T6\STM32.DSN")
       (Schematic "SCHEMATIC1")
