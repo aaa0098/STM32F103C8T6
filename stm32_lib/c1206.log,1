@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : c1206.dra                                     )
+(    Software Version : 16.6-2015S108                                 )
+(    Date/Time        : Fri Jan 02 11:32:30 2026                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = D:/Cadence_SCH/STM32F103C8T6/stm32_lib
+    Name      = c1206.psm
+    User      = LH745211
+    Machine   = LAPTOP-UCGJ24GG
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+
